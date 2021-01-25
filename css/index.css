@@ -75,9 +75,9 @@ header {
     width: 20%;
     margin: 0% 0% -10% 0%;
 }
-
+/* flex will help the navigation bar align to the end of the line */
 .navigation {
-    display: flex;
+    display: flex; 
     justify-content: flex-end;
 }
 
@@ -109,6 +109,10 @@ a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+.top-banner {
+    margin-bottom: 5%;
+    }
 
 .top-content .text-container {
     width: 48%;
