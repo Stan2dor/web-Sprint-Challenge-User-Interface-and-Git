@@ -66,6 +66,37 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    margin: 0% 0% -10% 0%;
+}
+/* flex will help the navigation bar align to the end of the line */
+.navigation {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 3em 1em 2em 4em;
+  }
+  
+  .navigation a:hover {
+    color: rgb(69, 69, 69);
+    text-decoration: underline;
+  }
+
+a {
+    font-size: 18px;
+    margin: 0;
+    padding: 2%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -78,6 +109,10 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+.top-banner {
+    margin-bottom: 5%;
+    }
 
 .top-content .text-container {
     width: 48%;
@@ -144,3 +179,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
