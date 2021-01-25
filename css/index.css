@@ -66,6 +66,37 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    margin: 0% 0% -10% 0%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 3em 1em 2em 4em;
+  }
+  
+  .navigation a:hover {
+    color: rgb(69, 69, 69);
+    text-decoration: underline;
+  }
+
+a {
+    font-size: 18px;
+    margin: 0;
+    padding: 2%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -144,3 +175,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
